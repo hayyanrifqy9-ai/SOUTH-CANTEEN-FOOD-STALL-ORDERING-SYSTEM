@@ -40,7 +40,7 @@ while True:
 
     #get input from user for dishes and ask till get correct code
     while True:
-        item_code = input("\nwhat do you want?")#i wanna make it to where even if user put 1 it can still detect
+        item_code = input("\nwhat do you want?")#error check
         # look for item details
         dish_name, dish_price = find_item(item_code, main_dish)
         if dish_name:
